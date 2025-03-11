@@ -277,7 +277,7 @@
             // lst_Students
             // 
             lst_Students.FormattingEnabled = true;
-            lst_Students.Location = new Point(728, 48);
+            lst_Students.Location = new Point(729, 26);
             lst_Students.Name = "lst_Students";
             lst_Students.Size = new Size(260, 324);
             lst_Students.TabIndex = 27;
