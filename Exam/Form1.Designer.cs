@@ -51,12 +51,15 @@
             lb_grade = new Label();
             lb_advisor = new Label();
             cmbAdvisor = new ComboBox();
+            groupBox1 = new GroupBox();
+            lst_Students = new ListBox();
+            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(42, 26);
+            label1.Location = new Point(96, 26);
             label1.Name = "label1";
             label1.Size = new Size(24, 20);
             label1.TabIndex = 0;
@@ -65,7 +68,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(42, 77);
+            label2.Location = new Point(71, 74);
             label2.Name = "label2";
             label2.Size = new Size(49, 20);
             label2.TabIndex = 1;
@@ -74,7 +77,7 @@
             // Major
             // 
             Major.AutoSize = true;
-            Major.Location = new Point(42, 126);
+            Major.Location = new Point(72, 119);
             Major.Name = "Major";
             Major.Size = new Size(48, 20);
             Major.TabIndex = 2;
@@ -83,7 +86,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(42, 170);
+            label4.Location = new Point(71, 167);
             label4.Name = "label4";
             label4.Size = new Size(49, 20);
             label4.TabIndex = 3;
@@ -92,7 +95,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(42, 221);
+            label5.Location = new Point(61, 216);
             label5.Name = "label5";
             label5.Size = new Size(59, 20);
             label5.TabIndex = 4;
@@ -128,9 +131,9 @@
             // 
             // btn_addStd
             // 
-            btn_addStd.Location = new Point(52, 275);
+            btn_addStd.Location = new Point(61, 264);
             btn_addStd.Name = "btn_addStd";
-            btn_addStd.Size = new Size(94, 29);
+            btn_addStd.Size = new Size(260, 29);
             btn_addStd.TabIndex = 10;
             btn_addStd.Text = "AddStd";
             btn_addStd.UseVisualStyleBackColor = true;
@@ -138,9 +141,9 @@
             // 
             // btn_showstd
             // 
-            btn_showstd.Location = new Point(199, 275);
+            btn_showstd.Location = new Point(375, 264);
             btn_showstd.Name = "btn_showstd";
-            btn_showstd.Size = new Size(94, 29);
+            btn_showstd.Size = new Size(313, 82);
             btn_showstd.TabIndex = 11;
             btn_showstd.Text = "ShowStd";
             btn_showstd.UseVisualStyleBackColor = true;
@@ -149,7 +152,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(592, 23);
+            label3.Location = new Point(481, 30);
             label3.Name = "label3";
             label3.Size = new Size(94, 20);
             label3.TabIndex = 13;
@@ -158,7 +161,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(519, 65);
+            label6.Location = new Point(36, 23);
             label6.Name = "label6";
             label6.Size = new Size(84, 20);
             label6.TabIndex = 14;
@@ -167,7 +170,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(519, 97);
+            label7.Location = new Point(36, 55);
             label7.Name = "label7";
             label7.Size = new Size(26, 20);
             label7.TabIndex = 15;
@@ -176,7 +179,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(519, 136);
+            label8.Location = new Point(36, 94);
             label8.Name = "label8";
             label8.Size = new Size(76, 20);
             label8.TabIndex = 16;
@@ -185,7 +188,7 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(519, 167);
+            label9.Location = new Point(36, 125);
             label9.Name = "label9";
             label9.Size = new Size(37, 20);
             label9.TabIndex = 17;
@@ -194,7 +197,7 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(519, 202);
+            label10.Location = new Point(36, 160);
             label10.Name = "label10";
             label10.Size = new Size(103, 20);
             label10.TabIndex = 18;
@@ -203,7 +206,7 @@
             // lb_id
             // 
             lb_id.AutoSize = true;
-            lb_id.Location = new Point(659, 65);
+            lb_id.Location = new Point(215, 23);
             lb_id.Name = "lb_id";
             lb_id.Size = new Size(58, 20);
             lb_id.TabIndex = 19;
@@ -212,7 +215,7 @@
             // lb_name
             // 
             lb_name.AutoSize = true;
-            lb_name.Location = new Point(659, 97);
+            lb_name.Location = new Point(215, 55);
             lb_name.Name = "lb_name";
             lb_name.Size = new Size(58, 20);
             lb_name.TabIndex = 20;
@@ -221,7 +224,7 @@
             // lb_major
             // 
             lb_major.AutoSize = true;
-            lb_major.Location = new Point(659, 136);
+            lb_major.Location = new Point(215, 94);
             lb_major.Name = "lb_major";
             lb_major.Size = new Size(58, 20);
             lb_major.TabIndex = 21;
@@ -230,7 +233,7 @@
             // lb_grade
             // 
             lb_grade.AutoSize = true;
-            lb_grade.Location = new Point(659, 170);
+            lb_grade.Location = new Point(215, 128);
             lb_grade.Name = "lb_grade";
             lb_grade.Size = new Size(58, 20);
             lb_grade.TabIndex = 22;
@@ -239,7 +242,7 @@
             // lb_advisor
             // 
             lb_advisor.AutoSize = true;
-            lb_advisor.Location = new Point(659, 202);
+            lb_advisor.Location = new Point(215, 160);
             lb_advisor.Name = "lb_advisor";
             lb_advisor.Size = new Size(58, 20);
             lb_advisor.TabIndex = 23;
@@ -248,27 +251,46 @@
             // cmbAdvisor
             // 
             cmbAdvisor.FormattingEnabled = true;
-            cmbAdvisor.Location = new Point(126, 221);
+            cmbAdvisor.Location = new Point(126, 213);
             cmbAdvisor.Name = "cmbAdvisor";
-            cmbAdvisor.Size = new Size(151, 28);
+            cmbAdvisor.Size = new Size(195, 28);
             cmbAdvisor.TabIndex = 25;
+            // 
+            // groupBox1
+            // 
+            groupBox1.Controls.Add(label6);
+            groupBox1.Controls.Add(label7);
+            groupBox1.Controls.Add(lb_advisor);
+            groupBox1.Controls.Add(label8);
+            groupBox1.Controls.Add(lb_grade);
+            groupBox1.Controls.Add(label9);
+            groupBox1.Controls.Add(lb_major);
+            groupBox1.Controls.Add(label10);
+            groupBox1.Controls.Add(lb_name);
+            groupBox1.Controls.Add(lb_id);
+            groupBox1.Location = new Point(375, 48);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(313, 199);
+            groupBox1.TabIndex = 26;
+            groupBox1.TabStop = false;
+            // 
+            // lst_Students
+            // 
+            lst_Students.FormattingEnabled = true;
+            lst_Students.Location = new Point(728, 48);
+            lst_Students.Name = "lst_Students";
+            lst_Students.Size = new Size(260, 324);
+            lst_Students.TabIndex = 27;
+            lst_Students.SelectedIndexChanged += lst_Students_SelectedIndexChanged;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(826, 400);
+            ClientSize = new Size(1125, 473);
+            Controls.Add(lst_Students);
+            Controls.Add(groupBox1);
             Controls.Add(cmbAdvisor);
-            Controls.Add(lb_advisor);
-            Controls.Add(lb_grade);
-            Controls.Add(lb_major);
-            Controls.Add(lb_name);
-            Controls.Add(lb_id);
-            Controls.Add(label10);
-            Controls.Add(label9);
-            Controls.Add(label8);
-            Controls.Add(label7);
-            Controls.Add(label6);
             Controls.Add(label3);
             Controls.Add(btn_showstd);
             Controls.Add(btn_addStd);
@@ -284,6 +306,8 @@
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -313,5 +337,7 @@
         private Label lb_grade;
         private Label lb_advisor;
         private ComboBox cmbAdvisor;
+        private GroupBox groupBox1;
+        private ListBox lst_Students;
     }
 }

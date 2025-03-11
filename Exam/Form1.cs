@@ -12,11 +12,14 @@ namespace Exam
         {
             InitializeComponent();
             LoadAdvisors();
+            UpdateStudentList();
         }
         private void LoadAdvisors()
         {
-            advisors.Add(new Advisor("Dr. Smith", "Computer Science"));
-            advisors.Add(new Advisor("Dr. Johnson", "Mathematics"));
+            advisors.Add(new Advisor("Dr.Pyothorn", "Computer Science"));
+            advisors.Add(new Advisor("Dr.Wullapa", "Mathematics"));
+            advisors.Add(new Advisor("Dr.Noppakun", "Computer Science"));
+            advisors.Add(new Advisor("Dr.Patareeya", "Mathematics"));
 
             cmbAdvisor.Items.AddRange(advisors.Select(a => a.Name).ToArray());
         }
@@ -31,39 +34,81 @@ namespace Exam
             string id = tb_id.Text;
             string name = tb_name.Text;
             string major = tb_department.Text;
-            double grade = double.Parse(tb_grade.Text);
-            string advisorName = cmbAdvisor.SelectedItem?.ToString();
+            double grade;
 
-            Advisor advisor = advisors.FirstOrDefault(a => a.Name == advisorName);
-            if (advisor == null)
+            if (!double.TryParse(tb_grade.Text, out grade))
             {
-                MessageBox.Show("Please select a valid advisor.");
+                MessageBox.Show("กรุณากรอกเกรดเป็นตัวเลข");
                 return;
             }
+
+            if (cmbAdvisor.SelectedItem == null)
+            {
+                MessageBox.Show("กรุณาเลือกอาจารย์ที่ปรึกษา");
+                return;
+            }
+            string advisorName = cmbAdvisor.SelectedItem.ToString();
+            Advisor advisor = advisors.FirstOrDefault(a => a.Name == advisorName);
 
             Student student = new Student(id, name, major, grade, advisor);
             students.Add(student);
             advisor.AddStudent(student);
 
-            lb_id.Text = id;
-            lb_name.Text = name;
-            lb_major.Text = major;
-            lb_grade.Text = grade.ToString();
-            lb_advisor.Text = advisor.Name;
+            lb_id.Text = student.ID;
+            lb_name.Text = student.Name;
+            lb_major.Text = student.Major;
+            lb_grade.Text = student.Grade.ToString();
+            lb_advisor.Text = student.Advisor.Name;
 
-            MessageBox.Show("Student added successfully!");
+            UpdateStudentList();
+            MessageBox.Show("เพิ่มข้อมูลนักศึกษาเรียบร้อยแล้ว!");
         }
 
         private void btn_showstd_Click(object sender, EventArgs e)
         {
             if (students.Count == 0)
             {
-                MessageBox.Show("No students recorded.");
+                MessageBox.Show("ยังไม่มีนักศึกษาที่ถูกบันทึก");
                 return;
             }
 
             Student topStudent = students.OrderByDescending(s => s.Grade).FirstOrDefault();
-            MessageBox.Show($"Top Student: {topStudent.Name} (Grade: {topStudent.Grade})");
+            MessageBox.Show($"นักศึกษาที่ได้เกรดสูงสุด: {topStudent.Name} (เกรด: {topStudent.Grade})");
+        }
+
+        private void UpdateStudentList()
+        {
+            lst_Students.Items.Clear();
+            foreach (var student in students)
+            {
+                lst_Students.Items.Add(student.Name);
+            }
+        }
+
+        private void lst_Students_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            if (lst_Students.SelectedIndex != -1)
+            {
+                // ดึงชื่อนักศึกษาที่ถูกเลือก
+                string selectedName = lst_Students.SelectedItem.ToString();
+
+                // ค้นหานักศึกษาที่ตรงกับชื่อที่เลือก
+                Student student = students.FirstOrDefault(s => s.Name == selectedName);
+
+                // ถ้าพบนักศึกษา ให้อัปเดตข้อมูลไปที่ Labels
+                if (student != null)
+                {
+                    lb_id.Text = student.ID;
+                    lb_name.Text = student.Name;
+                    lb_major.Text = student.Major;
+                    lb_grade.Text = student.Grade.ToString();
+                    lb_advisor.Text = student.Advisor.Name;
+                }
+            }
+
+
         }
     }
 }
+
