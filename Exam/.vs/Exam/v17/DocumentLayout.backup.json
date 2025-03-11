@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|c:\\007\\work-cs\\github-work\\exammm\\exam\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,12 +11,16 @@
       "RelativeMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|c:\\007\\work-cs\\github-work\\exammm\\exam\\advisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|solutionrelative:advisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|c:\\007\\work-cs\\github-work\\exammm\\exam\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|c:\\007\\work-cs\\github-work\\exammm\\exam\\advisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|solutionrelative:advisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -48,13 +48,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Advisor.cs",
               "DocumentMoniker": "C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\Advisor.cs",
               "RelativeDocumentMoniker": "Advisor.cs",
               "ToolTip": "C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\Advisor.cs",
               "RelativeToolTip": "Advisor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T03:21:00.513Z",
               "IsPinned": true,
@@ -62,13 +62,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\Student.cs",
               "RelativeDocumentMoniker": "Student.cs",
               "ToolTip": "C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\Student.cs",
               "RelativeToolTip": "Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T02:53:19.543Z",
               "IsPinned": true,
@@ -76,28 +76,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAkwHAAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwDQAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T03:08:32.364Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:11:10.738Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-11T04:11:10.738Z"
             },
             {
               "$type": "Bookmark",
