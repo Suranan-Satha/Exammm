@@ -1,0 +1,16 @@
+C:\007\WORK-CS\GITHUB-WORK\Exammm\Exam\bin\Debug\net9.0-windows\Exam.exe
+C:\007\WORK-CS\GITHUB-WORK\Exammm\Exam\bin\Debug\net9.0-windows\Exam.deps.json
+C:\007\WORK-CS\GITHUB-WORK\Exammm\Exam\bin\Debug\net9.0-windows\Exam.runtimeconfig.json
+C:\007\WORK-CS\GITHUB-WORK\Exammm\Exam\bin\Debug\net9.0-windows\Exam.dll
+C:\007\WORK-CS\GITHUB-WORK\Exammm\Exam\bin\Debug\net9.0-windows\Exam.pdb
+C:\007\WORK-CS\GITHUB-WORK\Exammm\Exam\obj\Debug\net9.0-windows\Exam.Form1.resources
+C:\007\WORK-CS\GITHUB-WORK\Exammm\Exam\obj\Debug\net9.0-windows\Exam.csproj.GenerateResource.cache
+C:\007\WORK-CS\GITHUB-WORK\Exammm\Exam\obj\Debug\net9.0-windows\Exam.GeneratedMSBuildEditorConfig.editorconfig
+C:\007\WORK-CS\GITHUB-WORK\Exammm\Exam\obj\Debug\net9.0-windows\Exam.AssemblyInfoInputs.cache
+C:\007\WORK-CS\GITHUB-WORK\Exammm\Exam\obj\Debug\net9.0-windows\Exam.AssemblyInfo.cs
+C:\007\WORK-CS\GITHUB-WORK\Exammm\Exam\obj\Debug\net9.0-windows\Exam.csproj.CoreCompileInputs.cache
+C:\007\WORK-CS\GITHUB-WORK\Exammm\Exam\obj\Debug\net9.0-windows\Exam.dll
+C:\007\WORK-CS\GITHUB-WORK\Exammm\Exam\obj\Debug\net9.0-windows\refint\Exam.dll
+C:\007\WORK-CS\GITHUB-WORK\Exammm\Exam\obj\Debug\net9.0-windows\Exam.pdb
+C:\007\WORK-CS\GITHUB-WORK\Exammm\Exam\obj\Debug\net9.0-windows\Exam.genruntimeconfig.cache
+C:\007\WORK-CS\GITHUB-WORK\Exammm\Exam\obj\Debug\net9.0-windows\ref\Exam.dll
