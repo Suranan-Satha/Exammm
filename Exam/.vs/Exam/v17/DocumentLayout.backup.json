@@ -3,11 +3,7 @@
   "WorkspaceRootPath": "C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|c:\\007\\work-cs\\github-work\\exammm\\exam\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|c:\\007\\work-cs\\github-work\\exammm\\exam\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -19,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|c:\\007\\work-cs\\github-work\\exammm\\exam\\advisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|solutionrelative:advisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|c:\\007\\work-cs\\github-work\\exammm\\exam\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|c:\\007\\work-cs\\github-work\\exammm\\exam\\advisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1704A09-DB07-4DBD-B5D7-A8F0B9BCCE95}|Exam.csproj|solutionrelative:advisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,20 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\Person.cs",
               "RelativeDocumentMoniker": "Person.cs",
               "ToolTip": "C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\Person.cs",
               "RelativeToolTip": "Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T02:53:41.062Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,52 +54,42 @@
               "RelativeDocumentMoniker": "Advisor.cs",
               "ToolTip": "C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\Advisor.cs",
               "RelativeToolTip": "Advisor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T03:21:00.513Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Readme.md",
-              "DocumentMoniker": "C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\Readme.md",
-              "RelativeDocumentMoniker": "Readme.md",
-              "ToolTip": "C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\Readme.md",
-              "RelativeToolTip": "Readme.md",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-03-11T08:09:15.563Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\Student.cs",
               "RelativeDocumentMoniker": "Student.cs",
               "ToolTip": "C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\Student.cs",
               "RelativeToolTip": "Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T02:53:19.543Z"
+              "WhenOpened": "2025-03-11T02:53:19.543Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwHAAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T03:08:32.364Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\007\\WORK-CS\\GITHUB-WORK\\Exammm\\Exam\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",

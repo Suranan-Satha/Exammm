@@ -19,5 +19,12 @@ namespace Exam
         {
             Students.Add(student);
         }
+
+        public string GetStudentList()
+        {
+            return Students.Count > 0 ? string.Join(", ", Students.Select(s => s.Name)) : "ไม่มีนักศึกษา";
+        }
+
+
     }
 }

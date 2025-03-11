@@ -90,13 +90,13 @@ namespace Exam
 
             if (lst_Students.SelectedIndex != -1)
             {
-                // ดึงชื่อนักศึกษาที่ถูกเลือก
+
                 string selectedName = lst_Students.SelectedItem.ToString();
 
-                // ค้นหานักศึกษาที่ตรงกับชื่อที่เลือก
+
                 Student student = students.FirstOrDefault(s => s.Name == selectedName);
 
-                // ถ้าพบนักศึกษา ให้อัปเดตข้อมูลไปที่ Labels
+
                 if (student != null)
                 {
                     lb_id.Text = student.ID;
@@ -108,6 +108,20 @@ namespace Exam
             }
 
 
+        }
+
+        private void btn_showAdvisorStudents_Click(object sender, EventArgs e)
+        {
+            if (cmbAdvisor.SelectedItem == null)
+            {
+                MessageBox.Show("กรุณาเลือกอาจารย์ที่ปรึกษา");
+                return;
+            }
+
+            string advisorName = cmbAdvisor.SelectedItem.ToString();
+            Advisor advisor = advisors.FirstOrDefault(a => a.Name == advisorName);
+
+            MessageBox.Show($"นักศึกษาในที่ปรึกษาของ {advisor.Name}: {advisor.GetStudentList()}");
         }
     }
 }

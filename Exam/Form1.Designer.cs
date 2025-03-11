@@ -53,6 +53,7 @@
             cmbAdvisor = new ComboBox();
             groupBox1 = new GroupBox();
             lst_Students = new ListBox();
+            btn_showAdvisorStudents = new Button();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -105,28 +106,28 @@
             // 
             tb_id.Location = new Point(126, 23);
             tb_id.Name = "tb_id";
-            tb_id.Size = new Size(125, 27);
+            tb_id.Size = new Size(195, 27);
             tb_id.TabIndex = 5;
             // 
             // tb_name
             // 
             tb_name.Location = new Point(126, 74);
             tb_name.Name = "tb_name";
-            tb_name.Size = new Size(125, 27);
+            tb_name.Size = new Size(195, 27);
             tb_name.TabIndex = 6;
             // 
             // tb_department
             // 
             tb_department.Location = new Point(126, 119);
             tb_department.Name = "tb_department";
-            tb_department.Size = new Size(125, 27);
+            tb_department.Size = new Size(195, 27);
             tb_department.TabIndex = 7;
             // 
             // tb_grade
             // 
             tb_grade.Location = new Point(126, 167);
             tb_grade.Name = "tb_grade";
-            tb_grade.Size = new Size(125, 27);
+            tb_grade.Size = new Size(195, 27);
             tb_grade.TabIndex = 8;
             // 
             // btn_addStd
@@ -141,9 +142,9 @@
             // 
             // btn_showstd
             // 
-            btn_showstd.Location = new Point(375, 264);
+            btn_showstd.Location = new Point(375, 242);
             btn_showstd.Name = "btn_showstd";
-            btn_showstd.Size = new Size(313, 82);
+            btn_showstd.Size = new Size(313, 57);
             btn_showstd.TabIndex = 11;
             btn_showstd.Text = "ShowStd";
             btn_showstd.UseVisualStyleBackColor = true;
@@ -152,7 +153,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(481, 30);
+            label3.Location = new Point(483, 9);
             label3.Name = "label3";
             label3.Size = new Size(94, 20);
             label3.TabIndex = 13;
@@ -179,7 +180,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(36, 94);
+            label8.Location = new Point(36, 89);
             label8.Name = "label8";
             label8.Size = new Size(76, 20);
             label8.TabIndex = 16;
@@ -224,7 +225,7 @@
             // lb_major
             // 
             lb_major.AutoSize = true;
-            lb_major.Location = new Point(215, 94);
+            lb_major.Location = new Point(215, 89);
             lb_major.Name = "lb_major";
             lb_major.Size = new Size(58, 20);
             lb_major.TabIndex = 21;
@@ -233,7 +234,7 @@
             // lb_grade
             // 
             lb_grade.AutoSize = true;
-            lb_grade.Location = new Point(215, 128);
+            lb_grade.Location = new Point(215, 125);
             lb_grade.Name = "lb_grade";
             lb_grade.Size = new Size(58, 20);
             lb_grade.TabIndex = 22;
@@ -268,7 +269,7 @@
             groupBox1.Controls.Add(label10);
             groupBox1.Controls.Add(lb_name);
             groupBox1.Controls.Add(lb_id);
-            groupBox1.Location = new Point(375, 48);
+            groupBox1.Location = new Point(375, 37);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(313, 199);
             groupBox1.TabIndex = 26;
@@ -277,17 +278,28 @@
             // lst_Students
             // 
             lst_Students.FormattingEnabled = true;
-            lst_Students.Location = new Point(729, 26);
+            lst_Students.Location = new Point(61, 306);
             lst_Students.Name = "lst_Students";
             lst_Students.Size = new Size(260, 324);
             lst_Students.TabIndex = 27;
             lst_Students.SelectedIndexChanged += lst_Students_SelectedIndexChanged;
             // 
+            // btn_showAdvisorStudents
+            // 
+            btn_showAdvisorStudents.Location = new Point(375, 306);
+            btn_showAdvisorStudents.Name = "btn_showAdvisorStudents";
+            btn_showAdvisorStudents.Size = new Size(313, 324);
+            btn_showAdvisorStudents.TabIndex = 28;
+            btn_showAdvisorStudents.Text = "showAdvisorStudents";
+            btn_showAdvisorStudents.UseVisualStyleBackColor = true;
+            btn_showAdvisorStudents.Click += btn_showAdvisorStudents_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1125, 473);
+            ClientSize = new Size(805, 696);
+            Controls.Add(btn_showAdvisorStudents);
             Controls.Add(lst_Students);
             Controls.Add(groupBox1);
             Controls.Add(cmbAdvisor);
@@ -339,5 +351,6 @@
         private ComboBox cmbAdvisor;
         private GroupBox groupBox1;
         private ListBox lst_Students;
+        private Button btn_showAdvisorStudents;
     }
 }
