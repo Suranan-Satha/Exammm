@@ -23,6 +23,8 @@
 
 - แสดงรายชื่อนักศึกษาทั้งหมดที่อยู่ในที่ปรึกษาของอาจารย์แต่ละคน
 
+- แสดงนักศึกษาของอาจารย์
+
 
 
 
@@ -58,6 +60,7 @@ classDiagram
         -void btn_addStd_Click(object sender, EventArgs e)
         -void btn_showstd_Click(object sender, EventArgs e)
         -void lst_Students_SelectedIndexChanged(object sender, EventArgs e)
+        -void btn_showAdvisorStudents_Click(object sender, EventArgs e)
     }
 
     Person <|-- Advisor
@@ -93,4 +96,6 @@ classDiagram
 
 3.คลิกที่ "แสดงนักศึกษาที่ได้เกรดสูงสุด" เพื่อดูนักศึกษาที่มีคะแนนสูงสุดในระบบ
 
-4.เลือกรายชื่อนักศึกษาใน ListBox เพื่อดูรายละเอียดของแต่ละคน
+4.คลิกที่ "แสดงชื่อนักศึกษาของอาจารย์" เพื่อดูรายชื่อนักศึกษา
+
+5.เลือกรายชื่อนักศึกษาใน ListBox เพื่อดูรายละเอียดของแต่ละคน
